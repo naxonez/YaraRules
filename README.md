@@ -1,0 +1,4 @@
+yaraRules
+=========
+
+Rules to Yara
