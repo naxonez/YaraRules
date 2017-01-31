@@ -1,4 +1,1 @@
-yaraRules
-=========
-
-Rules to Yara
+[*] Reglas random para Yara
