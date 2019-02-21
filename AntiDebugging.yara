@@ -209,7 +209,7 @@ rule DebuggerPattern__SEH_Inits : AntiDebug DebuggerPattern {
 	meta:
 		weight = 1
 	strings:
-		$ = {64 89 25 00 00 00 00}
+		$ = { 64 ( 89 25 | A3 ) 00 00 00 00 }
 	condition:
 		any of them
 }
